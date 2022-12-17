@@ -1,0 +1,11 @@
+*{
+    font-family: 'Alata', sans-serif;
+
+}
+
+.neumo{
+    border-radius: 5px;
+background: bisque;
+box-shadow:  -5px 5px 9px #5a5a5a,
+             5px -5px 9px #ffffff;
+}
