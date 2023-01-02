@@ -24,7 +24,6 @@ const data = [
         description: 'a social media app allowing users to "Spotlight" personal stories and meaningful events.',
         tags: ["React", "Chakra UI", "Express", "AWS", "Mongoose/MongoDB"],
         repos: {
-            "Website": "https://seir-6-6-spotlight-app-client.herokuapp.com/",
             "Front End": "https://github.com/tzou2024/project-3-react",
             "Back End": "https://github.com/tzou2024/project-3-mongoose-express",
         },
@@ -35,7 +34,6 @@ const data = [
         description: 'a google docs style note taking app with folders and notes',
         tags: ["React", "Chakra UI", "Django", "PostgreSQL", "Django REST framework"],
         repos: {
-            "Website": "https://tzounotesclient.herokuapp.com/sign-in",
             "Front End": "https://github.com/tzou2024/noteclient",
             "Back End": "https://github.com/tzou2024/noteserver",
         },
@@ -46,7 +44,6 @@ const data = [
         description: 'a graduation requirement tracker for Olin college',
         tags: ["MongoDB/Mongoose", "Express", "Liquid", "Superkube"],
         repos: {
-            "Website": "https://tzougradplanner.up.railway.app",
             "Repo": "https://github.com/tzou2024/GraduationPlanner",
         },
         img: gradimg

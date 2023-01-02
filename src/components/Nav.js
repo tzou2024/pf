@@ -46,16 +46,16 @@ const Nav = ({ onOpen, ref }) => {
     </Flex>
     <Flex justifyContent={"space-around"} mt="5"  py="2" mx="2" borderBottom={"4px solid black"} fontSize="2xl">
     
-        <Link className='hoverable' px="5" to="/portfolio/projects">
+        <Link className='hoverable' to="/portfolio/projects">
             Projects
         </Link>
-        <Link to="/portfolio/about" className='hoverable' px="5">
+        <Link to="/portfolio/about" className='hoverable'>
             About
         </Link>
-        <Link to="/portfolio/resume" className='hoverable' px="5">
+        <Link to="/portfolio/resume" className='hoverable'>
             Resume
         </Link>
-        <Link to="/portfolio/contact" className='hoverable' px="5">
+        <Link to="/portfolio/contact" className='hoverable'>
             Contact
         </Link>
 

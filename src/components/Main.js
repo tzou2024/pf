@@ -21,7 +21,7 @@ import '../Styles.css'
     return (
       <Flex
         width="full"
-        minHeight="70vh"
+        minHeight="50em"
         // alignItems="center"
         px={isLargerThanLG ? '16' : '6'}
         py="5"
@@ -31,9 +31,10 @@ import '../Styles.css'
         <Flex
           w={isLargerThanLG ? '40%' : 'full'}
           mb={isLargerThanLG ? '0' : '6'}
+          minHeight="30em"
         //   alignItems="center"
           justifyContent="center"
-          borderBottom={!isLargerThanLG ?"4px solid white":""}
+          borderBottom={!isLargerThanLG ?"4px solid gray":""}
           h={!isLargerThanLG ?"70vh":""}
         >
           <Nav />

@@ -2,13 +2,14 @@ import React from 'react'
 import data from "../data/projects"
 import { 
   Flex,
-  Link
+  Link,
+  useMediaQuery
 
  } from '@chakra-ui/react'
 import Cardo from './card'
 
 const Projects = () => {
-  console.log(data)
+  const [isLargerThanLG] = useMediaQuery('(min-width: 62em)');
   
   const projMap = data.map((ell, ind) => {
     return (
@@ -18,11 +19,9 @@ const Projects = () => {
 
   return (
     <>
-    <Flex wrap={"wrap"}>
+    <Flex wrap={"wrap"} overflowY={isLargerThanLG ? "scroll" :""} height={isLargerThanLG ? "90vh":""}>
       {projMap}
     </Flex>
-    This portion is still a work in progress!
-    <Link href="https://tzou2024.github.io/"isExternal textColor="blue">In the meantime, checkout my old portfolio site.</Link>
     </>
     
   )
