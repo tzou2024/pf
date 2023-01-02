@@ -12,7 +12,7 @@ const data = [
     {
         name: "Hydrangea API",
         description: 'an API for Olin\'s automated hydroponics and sustainable food systems project team.',
-        tags: ["Python", "FastAPI", "MongoDB", "AWS", "CI/CD", "EC2"],
+        tags: ["Backend", "Python", "FastAPI", "MongoDB", "AWS", "CI/CD", "EC2"],
         repos: {
             "Repo": "https://github.com/tzou2024/hydrangea",
             "Design Doc": "https://docs.google.com/document/d/1Pc2PLaOh7dCDCJWnpELBCgfNip4MotUVfBgKtQ5LqRU/edit?usp=sharing"
@@ -21,7 +21,7 @@ const data = [
     },
     {
         name: "Spotlight",
-        description: 'a social media app allowing users to "Spotlight" personal stories and meaningful events.',
+        description: 'a social media app allowing users to "Spotlight" personal stories and meaningful events. I worked on both the UI in React and the API in Express.',
         tags: ["React", "Chakra UI", "Express", "AWS", "Mongoose/MongoDB"],
         repos: {
             "Website": "https://transcendent-kelpie-8238b1.netlify.app/",
