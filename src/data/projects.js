@@ -24,6 +24,7 @@ const data = [
         description: 'a social media app allowing users to "Spotlight" personal stories and meaningful events.',
         tags: ["React", "Chakra UI", "Express", "AWS", "Mongoose/MongoDB"],
         repos: {
+            "Website": "https://transcendent-kelpie-8238b1.netlify.app/",
             "Front End": "https://github.com/tzou2024/project-3-react",
             "Back End": "https://github.com/tzou2024/project-3-mongoose-express",
         },
