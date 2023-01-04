@@ -10,7 +10,7 @@ const About = ({isLargerThanLG}) => {
             Hi! I'm Trevor.
         </Text>
         <Text fontSize={"xl"} py="4" >
-        I'm an aspiring backend developer passionate about providing accessible technology that improves the lives of others. </Text>
+        I'm a fullstack developer passionate about providing accessible technology that improves the lives of others. </Text>
         <Text fontSize={"xl"} py="4">
         My background experience in Public Interest Technology through collaborative design gives me skills in analyzing stakeholder needs and creating efficient and organized code to address them. I am communicative, hard-working, and motivated by social impact.
         </Text>
