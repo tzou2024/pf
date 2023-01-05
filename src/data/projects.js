@@ -109,7 +109,7 @@ const data = [
     {
         name: "Gauntlet",
         bullets: [],
-        description: "a program to autonomously pilot a NEATO through a gauntlet filled with obstacle. We used a RANSAC algorithm and LIDAR scans to detect walls and obstacles. We combined that with a pro-programmed Barrel of Benevolence to make a potential field, and used the gradient vector at points in the vector field to find a path of descent.",
+        description: "a program to autonomously pilot a NEATO through a gauntlet filled with obstacles. We used a RANSAC algorithm and LIDAR scans to detect walls and obstacles. We combined that with a pre-programmed final target location to make a potential field, and used the gradient vector at points in the vector field to find a path of descent.",
         tags: ["RANSAC", "Gradient Descent", "Linear Algebra", "Matlab"],
         repos: {
             "Website": "https://docs.google.com/document/d/18S6SBOwofDlwyvvGMqeGAvr5HjAt8ZRSVZMJ0o-GBtI/edit?usp=sharing"
