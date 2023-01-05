@@ -7,12 +7,12 @@ import plantimg from './images/plant.png'
 import bipedal from './images/bipedal.png'
 import reach from './images/reach4help.png'
 import bod from './images/BOD.png' 
-import hydroimg from './images/hydroimg.png'
+import hydroimg from './images/hydro.png'
 const data = [
     {
-        name: "Hydrangea API",
-        description: 'an API for Olin\'s automated hydroponics and sustainable food systems project team.',
-        tags: ["Backend", "Python", "FastAPI", "MongoDB", "AWS", "CI/CD", "EC2"],
+        name: "Hydro",
+        description: 'part of a cloud-based automated hydroponics system as part of for Olin\'s sustainable food systems project team. I work on a custom API in Python for the Backend, the data processing microservice in Go, "Mother Nature", and a full interactive monitoring Web App using React. We used software engineering best practices through CI/CD using github actions, AWS, terraform, and automated unit testing/documentation.',
+        tags: ["Backend", "Python", "Go",  "FastAPI", "MongoDB", "AWS", "CI/CD", "EC2"],
         repos: {
             "Repo": "https://github.com/tzou2024/hydrangea",
             "Design Doc": "https://docs.google.com/document/d/1Pc2PLaOh7dCDCJWnpELBCgfNip4MotUVfBgKtQ5LqRU/edit?usp=sharing"
@@ -21,7 +21,7 @@ const data = [
     },
     {
         name: "Spotlight",
-        description: 'a social media app allowing users to "Spotlight" personal stories and meaningful events. I worked on both the UI in React and the API in Express.',
+        description: 'a social media app allowing users to "Spotlight" personal stories and meaningful events. I designed the UI in React and the API in Express using javascript. Image storage was hosted through AWS S3 Buckets.',
         tags: ["React", "Chakra UI", "Express", "AWS", "Mongoose/MongoDB"],
         repos: {
             "Website": "https://transcendent-kelpie-8238b1.netlify.app/",
@@ -32,7 +32,7 @@ const data = [
     },
     {
         name: "Notes App",
-        description: 'a google docs style note taking app with folders and notes',
+        description: 'a google docs style note taking app with folders and notes. Backend with folder, note, annd user models, one-to-many relationships and token auth. Front end with Chakra UI.',
         tags: ["React", "Chakra UI", "Django", "PostgreSQL", "Django REST framework"],
         repos: {
             "Front End": "https://github.com/tzou2024/noteclient",
@@ -42,8 +42,8 @@ const data = [
     },
     {
         name: "Grad",
-        description: 'a graduation requirement tracker for Olin college',
-        tags: ["MongoDB/Mongoose", "Express", "Liquid", "Superkube"],
+        description: 'a graduation requirement tracker for Olin college. 2 complete CRUD operations, auth, and seeded data. Designed using superkube CSS and Javascript.',
+        tags: ["MongoDB/Mongoose", "Express", "Liquid", "Superkube", "User Oriented Design", "Javascript"],
         repos: {
             "Repo": "https://github.com/tzou2024/GraduationPlanner",
         },
