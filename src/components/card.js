@@ -8,6 +8,8 @@ import {
     Spacer,
     Text,
     Link,
+    ListItem,
+    UnorderedList,
     Button
  } from '@chakra-ui/react'
  import Moda from './Moda'
@@ -25,6 +27,14 @@ const Cardo = ({proj}) => {
       )
   })
 
+  const bulletsMap = proj.bullets.map((dat, ind) => {
+    return (
+        <ListItem fontSize={"2xl"} my="1">
+          {dat}
+        </ListItem>
+    )
+})
+
   const linklist = Object.keys(proj.repos).map((ell, ind) => {
     return (
       <Box>
@@ -35,6 +45,12 @@ const Cardo = ({proj}) => {
       
     )
   })
+
+  // const bullets = proj.bullets.map((ell, ind) => {
+  //   return (
+  //     ""
+  //   )
+  // })
 
   return (
     <Flex
@@ -67,13 +83,21 @@ const Cardo = ({proj}) => {
           {proj.name}
         </Text>
 
-        <Text mb="6" opacity="0.8" fontSize={'2xl'}>
+        <Text opacity="0.8" fontSize={'2xl'}>
           {proj.description}
         </Text>
+
+        <Flex my="5">
+          <UnorderedList fontSize={"xl"} >
+          {bulletsMap}
+          </UnorderedList>
+          
+        </Flex>
 
         <Box>
         {badgeMap}
         </Box>
+        
         <Flex my="5">
           {linklist}
         </Flex>
