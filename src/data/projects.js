@@ -12,7 +12,7 @@ const data = [
     {
         name: "Hydro",
         description: 'part of a cloud-based automated hydroponics system as part of for Olin\'s sustainable food systems project team.',
-        bullets: ["Implement cloud-based automated hydroponics cart and wall using microcontrollers, containerized and automatically deployed to ECS using Git Actions", "Custom API for garden logging and configuration using python and FastAPI", "Data Processing Microservice 'Mother Nature' in Go automatically deployed using Hetzner and Ansible Playbooks", "Responsive monitoring Web App in React"
+        bullets: ["Containerized and automatically deployed to Amazon ECS using Git Actions", "Custom API for garden logging and configuration using python and FastAPI", "Data Processing Microservice 'Mother Nature' in Go automatically deployed using Hetzner and Ansible Playbooks", "Responsive monitoring Web App in React"
         ],
         tags: ["Backend", "Python", "Go",  "FastAPI", "MongoDB", "AWS", "CI/CD", "EC2", "React"],
         repos: {
